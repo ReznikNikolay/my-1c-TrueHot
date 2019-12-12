@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4ea7943-908c-4eca-a066-e94810b48a02">
+  <producedTypes>
+    <objectType typeId="0050054a-5e1b-41a9-aee5-ea1ae60ebea6" valueTypeId="68cb7e68-fedc-46c1-934c-18e74c663e30"/>
+    <refType typeId="a05321bd-1a17-4923-a31a-97c3b64c8989" valueTypeId="af655f83-de3d-4627-b079-232a2c0a39f9"/>
+    <selectionType typeId="fcdf441f-4c6b-48fc-9886-ce27740767a9" valueTypeId="1bd97506-e162-4fc0-b39c-a6391fa8fd4e"/>
+    <listType typeId="07b0b7b0-9da1-4d64-8b45-d18810a37ead" valueTypeId="95581fab-2112-44c8-9252-de09bf58815e"/>
+    <managerType typeId="462d1006-2a91-4cee-90d9-b72a9ebde751" valueTypeId="99369f4d-0d21-47aa-a245-3f5da8cc2b1b"/>
+  </producedTypes>
+  <name>Книжки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книжки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Книжки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Книжки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
